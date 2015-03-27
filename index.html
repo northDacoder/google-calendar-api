@@ -21,7 +21,7 @@
                 $.ajax({
                     url: "https://www.googleapis.com/calendar/v3/calendars/m9il9ttl0rnirg6en1p8nats08%40group.calendar.google.com/events?key=" + key,
                     type: 'GET',
-                    dataType: 'JSONP',
+                    dataType: 'JSON',
                     success: function(json) {
                         console.log(json);
                     },
